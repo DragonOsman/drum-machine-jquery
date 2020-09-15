@@ -1,0 +1,39 @@
+body {
+  background-color: #008080;
+  overflow: auto;
+}
+
+#drum-machine {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  border: 3px solid #000;
+  text-align: center;
+  background-color: #008a8a;
+}
+#drum-machine #display {
+  font-size: 24px;
+  padding: 4px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #b3b3b3;
+  background-color: #1f1f1f;
+}
+#drum-machine .drum-pad {
+  cursor: pointer;
+  width: 15%;
+  height: 40px;
+  color: #fff;
+  background-color: #000;
+  border: #000;
+  margin: 2px;
+}
+#drum-machine .drum-pad:last-child {
+  margin-bottom: 25px;
+}
+#drum-machine .drum-pad:hover {
+  background-color: #696969;
+}
